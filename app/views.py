@@ -6,6 +6,7 @@ def index(request):
 
 
 def login(request):
+    # Handle your login here and redirect on success.
     return redirect('congrat')
 
 
